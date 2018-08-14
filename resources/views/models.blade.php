@@ -15,8 +15,9 @@
                     </div>
 
                     <div class="panel-footer">
-                        <div>
+                        <div><!--
                             Selected ids: @{{ selection }}
+							-->
                         </div>
                     </div>
                 </div>
