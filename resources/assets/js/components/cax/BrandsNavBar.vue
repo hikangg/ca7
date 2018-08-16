@@ -91,13 +91,13 @@
             }
 
         },
-
+/*
         watch: {
             selectedViewMode: function() {
                 this.viewmode = this.selectedViewMode
             }
         },
-
+*/
         /**
          * Prepare the component (Vue 2.x).
          */
