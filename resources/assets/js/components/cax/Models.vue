@@ -87,8 +87,8 @@
              * Prepare the component.
              */
             prepareComponent() {
-//                this.getModels();
-//                this.getVehicles();
+                this.getModels();
+                this.getVehicles();
             },
 
             /**
