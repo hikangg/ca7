@@ -111,11 +111,11 @@
              * Prepare the component.
              */
             prepareComponent() {
-                /*
+                
                  this.getBrands();
                  if (this.showmodels) {
                  this.getModels();
-                 */
+                
             },
 
             sayHello(txt) {
