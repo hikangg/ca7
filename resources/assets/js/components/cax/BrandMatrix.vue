@@ -60,9 +60,9 @@
         data() {
             return {
                 sharedData: this.$root.$data,
-//                choices: [],
+                choices: [],
                 hrefPrefix: '/brands/'
-//                selectionState: this.brandSelectionState
+                selectionState: this.brandSelectionState
 
             }
         },
