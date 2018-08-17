@@ -43,7 +43,7 @@
              * Prepare the component.
              */
             prepareComponent() {
-//                this.getBrands();
+                this.getBrands();
             }
 
           }
