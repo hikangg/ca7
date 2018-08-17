@@ -86,20 +86,20 @@
                 return this.sharedData.selection;
             },
 
-/*
+
             brandSelectionState: function () {
                 return 1;
             }
-*/
+
 
         },
 
         watch: {
-/*
+
             brandSelectionState: function() {
                 this.selectionState=this.brandSelectionState;
             },
-*/
+
 
             currentSelection: function() {
                 this.choices = this.currentSelection;
