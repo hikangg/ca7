@@ -72,7 +72,7 @@
          */
         mounted() {
             this.prepareComponent();
-//            console.log('Component mounted. v1.1');
+            console.log('Component mounted. v1.1');
             this.choices = this.currentSelection;
 
         },
