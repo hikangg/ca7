@@ -88,7 +88,7 @@
              */
             prepareComponent() {
                 this.getModels();
-//                this.getVehicles();
+                this.getVehicles();
             },
 
             /**

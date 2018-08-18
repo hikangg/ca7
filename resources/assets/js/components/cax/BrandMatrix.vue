@@ -60,9 +60,9 @@
         data() {
             return {
                 sharedData: this.$root.$data,
-//                choices: [],
+                choices: [],
                 hrefPrefix: '/brands/'
-//                selectionState: this.brandSelectionState
+                selectionState: this.brandSelectionState
 
             }
         },
@@ -72,7 +72,7 @@
          */
         mounted() {
             this.prepareComponent();
-//            console.log('Component mounted. v1.1');
+            console.log('Component mounted. v1.1');
             this.choices = this.currentSelection;
 
         },
@@ -86,20 +86,20 @@
                 return this.sharedData.selection;
             },
 
-/*
+
             brandSelectionState: function () {
                 return 1;
             }
-*/
+
 
         },
 
         watch: {
-/*
+
             brandSelectionState: function() {
                 this.selectionState=this.brandSelectionState;
             },
-*/
+
 
             currentSelection: function() {
                 this.choices = this.currentSelection;
@@ -111,11 +111,11 @@
              * Prepare the component.
              */
             prepareComponent() {
-                /*
+                
                  this.getBrands();
                  if (this.showmodels) {
                  this.getModels();
-                 */
+                
             },
 
             sayHello(txt) {
