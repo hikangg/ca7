@@ -61,7 +61,7 @@
          */
         data() {
             return {
-                currentSelection: [],
+//                currentSelection: [],
                 hrefPrefix: '/models/',
                 models: [],
                 vehicles: []
