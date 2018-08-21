@@ -59,10 +59,10 @@ Route::middleware('auth:api')->post('/baskets', function (Request $request) {
 });
 
 
-/*Route::middleware('auth:api')->get('/brands/{manufacturer_id}', function () {
+Route::middleware('auth:api')->get('/brands/{manufacturer_id}', function () {
     $brands = App\Brand::where('manufacturer_id', manufacturer_id)->get();
     return $brands;
-});*/
+});
 
 
 Route::middleware('auth:api')->get('/modelnames', function () {
