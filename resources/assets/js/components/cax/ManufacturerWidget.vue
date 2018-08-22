@@ -16,7 +16,7 @@
          * The component's proporties.
          */
         props: {
-            brands: {required:true},
+//            brands: {required:true},
             manufacturer: {required:true },
             linkurl: {required:true}
         },
