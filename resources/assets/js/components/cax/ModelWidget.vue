@@ -48,7 +48,7 @@
              * Prepare the component.
              */
             prepareComponent() {
-                this.getVehicles(model.id);
+//                this.getVehicles(model.id);
             },
 
             getVehicles(id) {
