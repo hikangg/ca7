@@ -54,7 +54,7 @@
                                   Lists<span class="caret"></span>
                                 </a>
 
-                                <ul class="dropdown-menu" role="menu">
+                                <!--<ul class="dropdown-menu" role="menu">
                                     {{--Manufacturers menu option--}}
                                     <li>
                                         <a href="{{ url('/manufacturers') }}">
@@ -79,7 +79,7 @@
                                             Baskets
                                         </a>
                                     </li>
-                                </ul>
+                                </ul>-->
                             </li>
                         @endif&nbsp;
                     </ul>
