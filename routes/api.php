@@ -17,10 +17,10 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
 
-Route::middleware('auth:api')->get('/manufacturers', function () {
+/*Route::middleware('auth:api')->get('/manufacturers', function () {
     $manufacturers = App\Manufacturer::all();
     return $manufacturers;
-});
+});*/
 
 Route::middleware('auth:api')->get('/brands', function () {
     $brands = App\Brand::all();
