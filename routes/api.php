@@ -77,18 +77,5 @@ Route::middleware('auth:api')->get('/modelnames', function () {
         	"model": "FJR1300AS",
         	"price": 19000
         }]';
-
-/*    return $array = [
-        [
-            "id" => "100030",
-            "make" => "BMW",
-            "model" => "R 1200 RT"
-        ],
-        [
-            "id" => "100040",
-            "make" => "YAMAHA",
-            "model" => "FJR1300AS"
-        ]
-    ];*/
 });
 
