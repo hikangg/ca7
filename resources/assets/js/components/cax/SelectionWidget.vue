@@ -42,10 +42,10 @@
              * Prepare the component.
              */
             prepareComponent() {
-//                this.getBrands();
+                this.getBrands();
             },
 
-/*
+
             handleSelectionChange(collectedIds) {
                 for (let value of collectedIds) {
                     value += 1;
@@ -53,10 +53,6 @@
                 }
                 alert('Selection changed!' + collectedIds)
             }
-*/
-
-
-
         }
 
     }
