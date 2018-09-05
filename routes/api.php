@@ -17,10 +17,10 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
 
-/*Route::middleware('auth:api')->get('/manufacturers', function () {
+Route::middleware('auth:api')->get('/manufacturers', function () {
     $manufacturers = App\Manufacturer::all();
     return $manufacturers;
-});*/
+});
 
 Route::middleware('auth:api')->get('/brands', function () {
     $brands = App\Brand::all();
@@ -37,10 +37,10 @@ Route::middleware('auth:api')->get('/modelsByBrand/{brand_id}', function ($id) {
     return $models;
 });
 
-Route::middleware('auth:api')->get('/vehicles', function () {
+/*Route::middleware('auth:api')->get('/vehicles', function () {
     $vehicles = App\Vehicle::all();
     return $vehicles;
-});
+});*/
 
 Route::middleware('auth:api')->get('/vehiclesByModel/{model_id}', function ($id) {
     $vehicles = App\Vehicle::where('model_id', $id)->get();
