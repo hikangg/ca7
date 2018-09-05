@@ -35,7 +35,7 @@
          */
         mounted() {
             this.prepareComponent();
-//            console.log('Component mounted. v1.1');
+            console.log('Component mounted. v1.1');
         },
 
         computed: {
@@ -95,8 +95,8 @@
                 console.log('set value of myModels');
 
                 this.fetchModelList();
-                //console.log(this.myModels);
-                //console.log('length of myModels = ' + this.myModels.length);
+                console.log(this.myModels);
+                console.log('length of myModels = ' + this.myModels.length);
             }
 
         }
