@@ -33,7 +33,7 @@
          */
         mounted() {
             this.prepareComponent();
-            console.log('Component mounted. v1.1');
+//            console.log('Component mounted. v1.1');
             caxEvent.$on('selection-was-changed', () => this.handleSelectionChange(caxEvent));
         },
 
