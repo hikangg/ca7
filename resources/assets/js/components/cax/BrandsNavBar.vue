@@ -104,7 +104,7 @@
         mounted() {
             this.prepareComponent();
             this.updateViewMode(this.selectedViewMode);
-//            this.viewmode = this.selectedViewMode
+            this.viewmode = this.selectedViewMode
         },
 
         methods: {
@@ -135,7 +135,7 @@
                     brandsviewmode: mode,
                     sender: 'brands-view-mode-selector'
                 });
-                console.log('Broadcast from BrandsViewModeSelector: "' + myEvent + '", changed view mode to: ' + mode);
+//                console.log('Broadcast from BrandsViewModeSelector: "' + myEvent + '", changed view mode to: ' + mode);
             },
 
             /**
@@ -147,7 +147,7 @@
                     basketName: newName,
                     sender: 'brands-nav-bar'
                 });
-                console.log('Broadcast from BrandsNavBar: "' + myEvent + '", save as new basket: ' + newName);
+//                console.log('Broadcast from BrandsNavBar: "' + myEvent + '", save as new basket: ' + newName);
             },
 
             /**
@@ -163,9 +163,9 @@
                         brandsviewmode: mode,
                         sender: 'brands-view-mode-selector'
                     });
-                    console.log('Broadcast from BrandsViewModeSelector: "' + myEvent + '", changed view mode to: ' + mode);
+//                    console.log('Broadcast from BrandsViewModeSelector: "' + myEvent + '", changed view mode to: ' + mode);
 
-                    console.log('new viewMode is ' + this.viewMode);
+//                    console.log('new viewMode is ' + this.viewMode);
 
                 }
             },
@@ -175,11 +175,11 @@
                     .then(response => {
                         this.log = 'posted' + val;
 //                        console.log('posted "' + val + '"');
-                        console.log(response.status);
+//                        console.log(response.status);
                     })
                     .catch(error => {
                         this.errors = error;
-                        console.log(error);
+//                        console.log(error);
                     });
             },
 
@@ -190,9 +190,9 @@
              */
             requestBasketSave(val) {
                 if (val) {
-                    console.log('Save with new name ' + val);
+//                    console.log('Save with new name ' + val);
                 } else {
-                    console.log('Saving basket');
+//                    console.log('Saving basket');
                 }
                 this.saveBasket(val);
                 this.broadcastBasketNeedsSaving(val);
