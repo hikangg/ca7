@@ -101,9 +101,9 @@
                     .then(response => {
                         this.manufacturers = response.data;
                     })
-//                   .catch(error => {
-//                       console.log(error);
-//                    });
+                   .catch(error => {
+                       console.log(error);
+                    });
             },
 
             getBrands() {
