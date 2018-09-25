@@ -117,9 +117,9 @@
             },
 
             setSystemConstants() {
-//                this.VIEW_MODE_LIST = this.BRANDS_VIEW_DISPLAY_MODE_LIST;
-//                this.VIEW_MODE_SNIPPET = this.BRANDS_VIEW_DISPLAY_MODE_SNIPPET;
-//                this.VIEW_MODE_MATRIX = this.BRANDS_VIEW_DISPLAY_MODE_MATRIX;
+                this.VIEW_MODE_LIST = this.BRANDS_VIEW_DISPLAY_MODE_LIST;
+                this.VIEW_MODE_SNIPPET = this.BRANDS_VIEW_DISPLAY_MODE_SNIPPET;
+                this.VIEW_MODE_MATRIX = this.BRANDS_VIEW_DISPLAY_MODE_MATRIX;
             },
 
             handleSelectionChange(collectedIds) {
