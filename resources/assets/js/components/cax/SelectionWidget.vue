@@ -17,10 +17,10 @@
          */
         data() {
             return {
-/*
+
                 myVersion: 'CA10 -3',
                 selectionTest: []
-*/
+
             };
         },
 
