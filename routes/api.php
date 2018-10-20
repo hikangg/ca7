@@ -37,10 +37,10 @@ Route::middleware('auth:api')->get('/modelsByBrand/{brand_id}', function ($id) {
     return $models;
 });
 
-/*Route::middleware('auth:api')->get('/vehicles', function () {
+Route::middleware('auth:api')->get('/vehicles', function () {
     $vehicles = App\Vehicle::all();
     return $vehicles;
-});*/
+});
 
 Route::middleware('auth:api')->get('/vehiclesByModel/{model_id}', function ($id) {
     $vehicles = App\Vehicle::where('model_id', $id)->get();
