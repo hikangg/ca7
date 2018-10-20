@@ -63,7 +63,7 @@
          */
         data() {
             return {
-//                shared: sharedData,
+                shared: sharedData,
                 hrefPrefix: '/manufacturers/',
                 manufacturers: [],
                 brands: []
@@ -75,7 +75,7 @@
          */
         mounted() {
             this.prepareComponent();
-//            console.log('Component mounted. v1.1');
+            console.log('Component mounted. v1.1');
         },
 
         computed: {
@@ -101,9 +101,9 @@
                     .then(response => {
                         this.manufacturers = response.data;
                     })
-//                   .catch(error => {
-//                       console.log(error);
-//                    });
+                   .catch(error => {
+                       console.log(error);
+                    });
             },
 
             getBrands() {
@@ -111,9 +111,9 @@
                     .then(response => {
                         this.brands = response.data;
                     })
-//                   .catch(error => {
-//                       console.log(error);
-//                    });
+                   .catch(error => {
+                       console.log(error);
+                    });
             }
 
         }

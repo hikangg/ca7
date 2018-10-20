@@ -17,10 +17,10 @@
          */
         data() {
             return {
-/*
+
                 myVersion: 'CA10 -3',
                 selectionTest: []
-*/
+
             };
         },
 
@@ -44,6 +44,10 @@
             prepareComponent() {
                 this.getBrands();
             },
+
+            greetFunction() {
+                alert('Hello ' + this.name + '!')
+            }
 
 
             handleSelectionChange(collectedIds) {

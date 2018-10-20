@@ -104,7 +104,7 @@
         mounted() {
             this.prepareComponent();
             this.updateViewMode(this.selectedViewMode);
-//            this.viewmode = this.selectedViewMode
+            this.viewmode = this.selectedViewMode
         },
 
         methods: {
@@ -174,7 +174,7 @@
                 axios.post('/api/baskets', {name: val})
                     .then(response => {
                         this.log = 'posted' + val;
-//                        console.log('posted "' + val + '"');
+                        console.log('posted "' + val + '"');
                         console.log(response.status);
                     })
                     .catch(error => {

@@ -79,9 +79,9 @@
 //                        this.models = response.data;
                         this.models = response.data;
                     })
-//                   .catch(error => {
-//                       console.log(error);
-//                    });
+                   .catch(error => {
+                       console.log(error);
+                    });
             },
         }
      }

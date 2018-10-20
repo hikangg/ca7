@@ -57,12 +57,12 @@
                     if (this.models.length > 0) {
                         this.myModels = this.models;
                     } else {
-                        console.log('models < 1')
+//                        console.log('models < 1')
                         fetchModels = true;
                     }
                 }
                 if (fetchModels) {
-                    console.log('fetch from DB')
+//                    console.log('fetch from DB')
                     this.getModelsForBrand(this.brand.id);
                 }
             },
